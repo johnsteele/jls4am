@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Application Migration Test Plugin
+Bundle-SymbolicName: org.jboss.tools.windup.am.test;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Automatic-Module-Name: org.jboss.tools.windup.am.test
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.jboss.tools.windup.am,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core,
+ org.eclipse.core.resources,
+ org.apache.commons.lang3,
+ org.junit,
+ org.apache.commons.io,
+ com.google.guava;bundle-version="21.0.0"
+
